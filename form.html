@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+			integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+		/>
+
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+		></script>
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+		></script>
+		<!-- links -->
+
+		<link rel="stylesheet" href="./assets/style/main.css" />
+		<script defer src="./assets/js/form.js"></script>
+		<script defer src="./assets/js/header.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="cont">
+				<div class="header">
+					<div class="logo"><h2>COLORIB</h2></div>
+
+					<nav>
+						<ul>
+							<li><a href="home.html">Home</a></li>
+							<li><a href="">Menu</a></li>
+							<li><a href="./form.html">Add Product</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</nav>
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</div>
+		</header>
+
+		<section id="add-product">
+			<div class="cont">
+				<div class="add-product">
+					<form action="">
+						<input type="text" name="" placeholder="Name Product" />
+						<input type="text" name="" placeholder="Description" />
+						<input type="text" name="" placeholder="Image Url" />
+						<input type="number" name="" placeholder="Price" />
+						<select name="" id="">
+							<option value="" selected disabled>Select category</option>
+							<option value="main">main</option>
+							<option value="dessert">dessert</option>
+							<option value="drinks">drinks</option>
+						</select>
+						<button class="btn btn-success">Submit</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<div id="table">
+			<div class="cont">
+				<div class="table-thing">
+					<button class="btn-sort">A-Z</button>
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="">Id</th>
+								<th scope="">Img</th>
+								<th scope="">Name</th>
+								<th scope="">Desc</th>
+								<th scope="">Price</th>
+								<th scope="">Category</th>
+								<th scope="">Del/Edit</th>
+							</tr>
+						</thead>
+
+						<tbody></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
